@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#input_parameteres {
+    display: none;
+}
+
+html {
+    box-sizing: border-box;
+  }
+
+/* .chip {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: move;
+  }
+.cell {
+    margin: 0;
+    padding: 0;
+  } */

@@ -1,0 +1,14 @@
+0. All game will be in one main index.html file and includes js files.
+1. Our puzzle have N rows and M cols. We must set them first for generating game area.
+
+
+
+
+-1. Create boilerplate html. 
+    Inside we have input_parameteres div with input elements and gameField div for field.
+    input_parametres div will be shown after page loading.
+    gameField div will be empty
+-1.1 After page loaded, Create two fields for rows and column numbers and one button.
+
+2. After pressing Generate puzzle button, 
+    we clear inner html of gameField div
