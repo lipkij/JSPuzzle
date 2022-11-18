@@ -4,6 +4,17 @@ ROWS = 2;
 
 
 this.onload = function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (!!urlParams.get('level')){
+        COLS = parseInt(urlParams.get('level'));
+        ROWS = parseInt(urlParams.get('level'));
+    }
+    if (!!urlParams.get('rows') && !!urlParams.get('cols')){
+        COLS = parseInt(urlParams.get('cols'));
+        ROWS = parseInt(urlParams.get('rows'));
+    }
+
+
     startGame()
 }
 
