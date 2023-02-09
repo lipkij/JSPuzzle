@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +12,18 @@
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
-    <div class="input_parameteres" id="input_parameteres">
-        <label for="puzzleRows">Rows<input type="text" id="puzzleRows" name="puzzleRows"></label>
-        <label for="puzzleCols">Cols<input type="text" id="puzzleCols" name="puzzleCols"></label>
-        <button onclick="generateField();">Generate puzzle</button>
-    </div>
-    <div class="game-field-container" id="gameField">
 
+<body>
+    <div class="gamePanel">
+        <div class="input_parameteres" id="input_parameteres">
+            <label for="puzzleRows">Rows<input type="text" id="puzzleRows" name="puzzleRows"></label>
+            <label for="puzzleCols">Cols<input type="text" id="puzzleCols" name="puzzleCols"></label>
+            <button onclick="generateField();">Generate puzzle</button>
+        </div>
+        <div class="game-field-container" id="gameField">
+
+        </div>
     </div>
 </body>
+
 </html>

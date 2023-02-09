@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 #input_parameteres {
@@ -11,13 +11,14 @@ html {
     box-sizing: border-box;
   }
 
-/* .chip {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    cursor: move;
-  }
-.cell {
-    margin: 0;
-    padding: 0;
-  } */
+.gamePanel {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameField {
+  position: absolute;
+}
